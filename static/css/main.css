@@ -27,16 +27,22 @@ html {
     background-color: #202225;
 }
 
+hr {
+    border-color: white;
+    padding-bottom: 10rem;
+    margin-top: 10rem;
+}
+
+#pricing .card {
+    color: black;
+}
+
 #accordion .card {
-    background-color: #36393f !important;
+    background-color: #36393f;
 }
 
 .navbar {
-    padding-bottom: 15rem;
-}
-
-#key-features {
-    padding-bottom: 15rem;
+    padding-bottom: 10rem;
 }
 
 .navbar-inner {
@@ -45,7 +51,7 @@ html {
 
 .jumbotron {
     background-color: #202225;
-    padding-bottom: 10rem;
+    padding-bottom: 15rem;
 }
 
 a {
@@ -64,7 +70,7 @@ a:focus {
 }
 a:hover {
     text-decoration: none;
-    color: #57b846;
+    color: #3393FF;
 }
 h1,
 h2,
