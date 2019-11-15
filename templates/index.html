@@ -3,16 +3,16 @@
 {% block title %}Ghost{% endblock title %}
 <!-- Content -->
 {% block content %}
-<div class="text-center pt-5">
+<div class="text-center pt-5 pb-5">
     <div class="jumbotron">
-        <h1 class="display-4">Ghost</h1>
-        <p class="lead">
+        <h1 class="display-4 pb-3">Ghost</h1>
+        <p class="lead pb-4">
             Advanced Discord self-bot that allows you to reach maximum meme
             potential!
         </p>
         <a
             class="btn btn-primary btn-lg mr-5 pr-4 pl-4"
-            href="#"
+            href="{{ url_for('login') }}"
             role="button"
             >Login</a
         >
@@ -20,34 +20,52 @@
             >Features</a
         >
     </div>
-    <div class="row pb-5 pt-5">
-        <div class="col my-auto">
-            <h4>Title 1 Title 2</h4>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in
-            aliquet quam, non vestibulum felis. Cras eu pharetra lacus.
-            Curabitur porttitor nunc id nulla blandit fermentum.
-        </div>
-        <div class="col my-auto">
-            <img src="http://via.placeholder.com/300" class="img-fluid" />
+    <div id='key-features' class="pt-5">
+        <h2>Key Features</h2>
+        <div class="row pt-3">
+            <div class="col-md-4">
+                <div class="about">
+                    <i class="fa fa-cogs fa-lg pb-3"></i>
+                    <h3>Fully Customizible</h3>
+                    <p>
+                        Maecenas tempus tellus eget condimentum rhoncus sem quam
+                        semper libero sit amet.
+                    </p>
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="about">
+                    <i class="fa fa-magic fa-lg pb-3"></i>
+                    <h3>Online Dashboard</h3>
+                    <p>
+                        Maecenas tempus tellus eget condimentum rhoncus sem quam
+                        semper libero sit amet.
+                    </p>
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="about">
+                    <i class="fa fa-mobile fa-lg pb-3"></i>
+                    <h3>Fast</h3>
+                    <p>
+                        Maecenas tempus tellus eget condimentum rhoncus sem quam
+                        semper libero sit amet.
+                    </p>
+                    <a href="#">Read more</a>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="row pt-5">
-        <div class="col my-auto">
-            <img src="http://via.placeholder.com/300" class="img-fluid" />
-        </div>
+    <div class="row pb-5 pt-5">
         <div class="col my-auto">
             <h4>This is a cool feature title</h4>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in
             aliquet quam, no
         </div>
-    </div>
-    <div class="row pb-5 pt-5">
-        <div class="col my-auto">
-            <h4>Title 1 Title 2</h4>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in
-            aliquet quam, non vestibulum felis. Cras eu pharetra lacus.
-            Curabitur porttitor nunc id nulla blandit fermentum.
-        </div>
         <div class="col my-auto">
             <img src="http://via.placeholder.com/300" class="img-fluid" />
         </div>
@@ -57,7 +75,7 @@
             <img src="http://via.placeholder.com/300" class="img-fluid" />
         </div>
         <div class="col my-auto">
-            <h4>This is a cool feature title</h4>
+            <h4>This is a cool feature testimonial</h4>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in
             aliquet quam, no
         </div>
